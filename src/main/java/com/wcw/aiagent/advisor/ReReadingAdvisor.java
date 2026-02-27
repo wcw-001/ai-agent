@@ -24,7 +24,8 @@ public class ReReadingAdvisor implements CallAroundAdvisor, StreamAroundAdvisor 
 
         return AdvisedRequest.from(advisedRequest)
                 .userText("""
-                        {re2_input_query}
+                        public class LoveAppDocumentLoader {
+                                         
                         Read the question again: {re2_input_query}
                         """)
                 .userParams(advisedUserParams)
