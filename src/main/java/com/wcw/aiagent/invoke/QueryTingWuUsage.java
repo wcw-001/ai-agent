@@ -152,7 +152,7 @@ public class QueryTingWuUsage {
             // 配置参数
             String apiKey = "sk-affc42369fa14b65b28b84469c3a56a7";
             String workspace = "ws-g5f0e7av9t38ob5p";
-            String dataId = "l9AnwLMDhS0D";
+            String dataId = "zGASZdbhM5Rq";
 
             // 查询任务状态
             DashScopeResult result = queryTaskStatus(apiKey, workspace, dataId);
